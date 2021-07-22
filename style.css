@@ -1,0 +1,22 @@
+form.registration-form {
+    display: inline;
+}
+
+div.registration-form {
+    margin-bottom: 1.5vh;
+    height: 3.7vh;
+}
+
+label {
+    vertical-align: text-top;
+}
+
+.registration-form input:not([type="submit"]) {
+    position: absolute;
+    left: 15vw;
+}
+
+.success-message {
+    font-size: large;
+    font-weight: bold;
+}
